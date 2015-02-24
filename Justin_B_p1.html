@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+ 	<title>Justin_B_p1</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">  
+	<link href='http://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="body">
+<h1 class="mainheading">Web Page Basics</h1>
+	<div class="navigation">
+
+		<p>
+			<a href="#htmlIntro">What is HTML?</a>
+		</p>
+		<p>
+			<a href="#htmlTextStyles">Basic Text Formatting with HTML</a>
+		</p>
+		<p>
+			<a href="#webpageStructure">How Pages are Organized</a>
+		</p>
+		<p>
+			<a href="#cssDescripton">What is CSS?</a>
+		</p>
+
+	</div>
+<div class="content">
+	<div class="htmlIntro">
+		<h2>What is HTML?</h2>
+		<p>
+<a name="htmlIntro"></a>
+			<em>HTML</em>is an acronym for <em>H</em>yper <em>T	</em>ext <em>M</em>arkup <em>L</em>anguage. HTML 	provides the basic underlying structure and static content of web pages. To use the internet a user makes a request, which is interpreted using http(<u>h</u>yper <u>t</u>ext <u>t</u>ransfer <u>p</u>rotocol) which is sent and interpreted by a special computer called a server. A server responds to the request and replies via the internet. The results are rendered by the user's internet browser such as Microsoft Explorer, Safari, or Google Chrome. 
+		</p>
+		<p>
+			The internet content that you see in your browser is divided into a number of <em>html elements</em> by the webpage designer. Elements are generally delineated by an opening and a closing <em>html tag</em>. The tags are important because html code is just some typed in 	plain text that is read by the browser. Plain text does not have the formatting or organizational options that you find in your word processor. In plain text their are no tables, boxes, different fonts, or the ability to make text bold or italic. Tags in html tell the browser how to interpret content. 
+		</p>
+		<p>
+There are a few tags that stand alone without a closing tag. These tags are called <em>void tag </em>. A good example of a void tag is a tag that directs the browser to an image. Since images are not plain text, the image tag in html tells the browser where to get the image to display in the given area of the page.  
+		</p>
+	</div>
+	<div class="tagExamples">
+	
+<a name="htmlTextStyles"></a>
+		<h2>Here are some of the basic text formatting examples using html tags.
+		</h2>
+
+		<div class="htmlCodeEg">
+			<Table>
+				<tr><th><u>INPUT</u></th><th><u>OUTPUT</u></th>
+				<tr><td>&lt;h1&gt;This is the largest heading.&lt;/h1&gt;</td><td><h1>This is the largest heading.</h1></td></tr>
+				<tr><td>&lt;h2&gt;This one is a little smaller.&lt;/h2&gt;</td><td><h2>This one is a little smaller.</h2></td></tr>
+				<tr><td>&lt;h3&gt;This heading style is smaller still. &lt;/h3&gt;</td><td><h3>This heading style is smaller still. </h3></td></tr>
+				<tr><td>&lt;h4&gt;...and smaller&lt;/h4&gt;</td><td><h4>...and smaller</h4></td></tr>
+				<tr><td>&lt;h5&gt;...and smaller&lt;/h5&gt;<br/></td><td><h5>...and smaller</h5></td></tr>
+				<tr><td>&lt;h6&gt;... and finally, this is the smallest header. There is a line break tag in the middle of the h6 header tags, it is an example of a void tag. &lt;br/&gt; <br/>
+The h6 text is smaller than paragraph text!!!&lt;/h6&gt;<br/></td><td><h6>... and finally, this is the smallest header. Note: There is a line break tag in the middle of the h6 header tags, it is an example of a void tag.<br/>
+The h6 text is smaller than paragraph text!!!
+</h6></td></tr>
+				<tr><td>&lt;p&gt;Here is some paragraph text.&lt;/p&gt;</td><td><p>Here is some paragraph text.</p></td></tr>
+				<tr><td>&lt;strong&gt;BOLD TEXT&lt;/strong&gt;</td><td><strong>BOLD TEXT</strong></td></tr>
+				<tr><td>&lt;em&gt;Italic Text&lt;/em&gt;</td><td><em>Italic Text</em></td></tr>
+				<tr><td>&lt;u&gt;Underlined Text&lt;/u&gt;</td><td><u>Underlined Text</u></td></tr>
+				
+		</table>
+					</div>
+	</div>
+<div class="organization">
+	<br/>
+	<h2>Web Page Organization</h2>
+	<a name="webpageStructure"></a>
+	<p>HTML automatically divides content into blocks. Each block is automatically given a certain amount of space around it. Some elements, such as paragraphs exist in their own block of space. Others exist within that block. For example a block of paragraph text has space above and below it to separate it from other elements, while bold or italic text within the paragraph do not break from other text. Elements that are automatically allotted their own block of space are called <em>block elements</em>, while those that are not are called <em>inline elements</em>.Some examples of inline tags are the anchor tag &lt;a&gt;, the italics tag &lt;em&gt;, and the paragraph tag &lt;p&gt;. Some examples of block tags are the division tag &lt;div&gt;, the paragraph tag &lt;p&gt;, and the form tag &lt;form&gt;.</p>
+	<p>The html programmer can use division tags to group content, including multiple block elements. For example, the navigation menu to the right was created as a separate block of content using division tags. A division or block of elements can be referred to as a <em>parent element</em>, and a sub-division or element within a division is called the <em>child element</em> of that division or element. A tree diagram or flow chart is sometimes made to illustrate the dependence of various organizational elements, known as a <strong>DOM</strong> (<u>D</u>ocument <u>O</u>bject <u>M</u>odel) for the webpage. The styling and positioning of elements on a web page can be refined by using CSS.</p>
+</div>
+<div class="css">
+	<h2>What is CSS?</h2>
+<a name="cssDescripton"></a>
+<p>CSS stands for <u>C</u>ascading <u>S</u>tyle <u>S</u>heets. CSS is used to refine the position and styling of elements on a page. The divisions or classes defined in html can be used by CSS to apply styling. Styling defined for parent elements is automatically inherited by child elements. Thus styling instructions are said to <em>cascade</em> like a waterfall from parent elements to their child elements.</p>
+<p> CSS instructions can be embedded within the header of the HTML document, inline with the elements themselves, or written in a separate document. Normally, styling instructions are written in a separate document that is loaded with the HTML code by the browser by a link provided in the header of an HTML document. This allows for the most efficient use of CSS. By writing the styling separately using content divisions, html code is less cluttered and the necessity of styling each individual element is avoided, embedded styling features must be repeated for every element needing that style. In contrast, when a separate CSS file is created styling can easily be applied to classes or divisions of elements . Styling features of parent elements are automatically inherited by child elements. Thus, repetition is avoided.
+<p>The header of an HTML document contains instructions that are not displayed on the page, but tell the browser the title to display in the browser tab and other instructions that must be loaded in order to render the page correctly.</p> 
+</div>
+</div>
+</div>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</body>
+</html>

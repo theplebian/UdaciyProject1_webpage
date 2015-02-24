@@ -1,0 +1,11 @@
+/* The command below tells css to automatically adjust padding, margins, boder, and content area so that when ever one of those parameters is specified the others are adjusted to keep the box the same size.*/
+
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+
+/*Styling for my navigation bar:in a narrow rectanglar box with rounded edges with fixed position so that it follows the content. */
+.body {background-color: Gainsboro;}
+.navigation {position:fixed;border-style:solid;border-width:1px;border-color:navy; background-color:khaki; max-width:200px;border-radius:10px;}
+.mainheading {text-align:center;font-size:200%;border:solid;border-radius:15%;background-color:beige;Margin:10px;font-family:"Meddon",cursive;}
+.content {position: relative;width:80%;left:215px;}
+.htmlCodeEg {border-style:solid;}
+.tagExamples h2 {text-align:center; margin:1px}
