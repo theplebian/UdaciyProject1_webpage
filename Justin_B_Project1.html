@@ -1,83 +1,258 @@
-<!doctype html>
+<!--doctype html final submission-->
 <html>
 <head>
  	<title>Justin_B_p1</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="style1.css">  
 	<link href='http://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	<div class="body">
-<h1 class="mainheading">Web Page Basics</h1>
+	<a name="Top"></a>
+	<h1 class="mainheading">Web Page Basics</h1>
 	<div class="navigation">
-<!--This is a navigation box I am placing in a fixed position as one scrolls down the page. The box will link to various parts of the page--!>
 		<p>
 			<a href="#htmlIntro">What is HTML?</a>
-		</p>
-		<p>
-			<a href="#htmlTextStyles">Basic Text Formatting with HTML</a>
-		</p>
-		<p>
+			&nbsp;&nbsp;&nbsp;
+			<a href="#htmlTextStyles">HTML Examples</a>
+			&nbsp;&nbsp;&nbsp;
 			<a href="#webpageStructure">How Pages are Organized</a>
-		</p>
-		<p>
+			&nbsp;&nbsp;&nbsp;
 			<a href="#cssDescripton">What is CSS?</a>
-		</p>
-
-	</div>
-<div class="content">
-	<div class="htmlIntro">
-		<h2>What is HTML?</h2>
-		<p>
-<a name="htmlIntro"></a>
-			<em>HTML</em>is an acronym for <em>H</em>yper <em>T	</em>ext <em>M</em>arkup <em>L</em>anguage. HTML 	provides the basic underlying structure and static content of web pages. To use the internet a user makes a request, which is interpreted using http(hyper text tranfer protocol) which is sent and interpreted by a special computer called a server. A server responds to the request and replies via the internet. The results are rendered by the user's internet browser such as Microsoft Explorer, Safari, or Google Chrome. 
-		</p>
-		<p>
-			The internet content that you see in your browser is divided into a number of <em>html elements</em> by the webpage designer. Elements are generally delineated by an opening and a closing <em>html tag</em>. The tags are important because html code is just some typed in 	plain text that is read by the browser. Plain text does not have the formating or organizational options that you find in your word processor. In plain text their are no tables, boxes, different fonts, or the ability to make text bold or italic. Tags in html tell the browser how to interpret content. 
-		</p>
-		<p>
-There are a few tags that stand alone without a closing tag. These tags are called <em>void tage </em>. A good example of a void tag is a tag that directs the browser to an image. Since images are not plain text, the image tag in html tells the browser where to get the image to display in the given area of the page.  
+			&nbsp;&nbsp;&nbsp;
+			<a href="#Python">What is a programming language?</a>
+				&nbsp;&nbsp;&nbsp;
+			<a href="#python_basics">Python</a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="#lists_vs_strings">Lists vs. Strings</a>
 		</p>
 	</div>
-	<div class="tagExamples">
-		<h3>HTML Example</h3>
-<a name="htmlTextStyles"></a>
-		<p>Here are some of the basic text formatting examples using html tags.
-		</p>
-
-		<div class="htmlCodeEg">
-			<Table>
-				<tr><th><h4>INPUT</h4></th><th><h4>OUTPUT</h4></th>
-				<tr><td>&lt;h1&gt;This is the largest heading.&lt;/h1&gt;</td><td><h1>This is the largest heading.</h1></td></tr>
-				<tr><td>&lt;h2&gt;This one is a little smaller.&lt;/h2&gt;</td><td><h2>This one is a little smaller.</h2></td></tr>
-				<tr><td>&lt;h3&gt;This heading style is smaller still. &lt;/h3&gt;</td><td><h3>This heading style is smaller still. </h3></td></tr>
-				<tr><td>&lt;h4&gt;...and smaller&lt;/h4&gt;</td><td><h4>...and smaller</h4></td></tr>
-				<tr><td>&lt;h5&gt;...and smaller&lt;/h5&gt;</br></td><td><h5>...and smaller</h5></td></tr>
-				<tr><td>&lt;h6&gt;... and finally, this is the smallest header. There is a line break tag in the middle of the h6 header tags, it is an example of a void tag. &lt;br/&gt; <br/>
-The h6 text is smaller than paragraph text!!!&lt;/h6&gt;</br></td><td><h6>... and finally, this is the smallest header. Note: There is a line break tag in the middle of the h6 header tags, it is an example of a void tag.<br/>
+	<div class="content">
+		<div class="htmlIntro">
+			<h2>What is HTML?</h2>
+			<p>
+				<a name="htmlIntro"></a>
+				<em>HTML</em>is an acronym for <em>H</em>yper <em>T	</em>ext <em>M</em>arkup <em>L</em>anguage. HTML 	provides the basic underlying structure and static content of web pages. To use the internet a user makes a request, which is interpreted using http(<u>h</u>yper <u>t</u>ext <u>t</u>ransfer <u>p</u>rotocol) which is sent and interpreted by a special computer called a server. A server responds to the request and replies via the internet. The results are rendered by the user's internet browser such as Microsoft Explorer, Safari, or Google Chrome. 
+			</p>
+			<p>
+			The internet content that you see in your browser is divided into a number of <em>html elements</em> by the webpage designer. Elements are generally delineated by an opening and a closing <em>html tag</em>. The tags are important because html code is just some typed in 	plain text that is read by the browser. Plain text does not have the formatting or organizational options that you find in your word processor. In plain text their are no tables, boxes, different fonts, or the ability to make text bold or italic. Tags in html tell the browser how to interpret content. 
+			</p>
+			<p>
+There are a few tags that stand alone without a closing tag. These tags are called <em>void tag </em>. A good example of a void tag is a tag that directs the browser to an image. Since images are not plain text, the image tag in html tells the browser where to get the image to display in the given area of the page.  
+			</p>
+		</div>
+	<a href = "Top">Back to Top</a>
+		<div class="tagExamples">
+			<a name="htmlTextStyles"></a>
+			<h2>Here are some of the basic text formatting examples using html tags.
+			</h2>
+				<div class="htmlCodeEg">
+					<Table>
+						<tr>
+							<th><u>INPUT</u></th>
+							<th><u>OUTPUT</u></th>
+						</tr>
+						<tr>
+							<td>&lt;h1&gt;This is the largest heading.&lt;/h1&gt;</td>
+							<td><h1>This is the largest heading.</h1></td></tr>
+						<tr>
+							<td>&lt;h2&gt;This one is a little smaller.&lt;/h2&gt;</td>
+							<td><h2>This one is a little smaller.</h2></td>
+						</tr>
+						<tr>
+							<td>&lt;h3&gt;This heading style is smaller still. &lt;/h3&gt;</td>
+							<td><h3>This heading style is smaller still. </h3></td>
+						</tr>
+						<tr>
+							<td>&lt;h4&gt;...and smaller&lt;/h4&gt;</td>
+							<td><h4>...and smaller</h4></td>
+						</tr>
+						<tr>
+							<td>&lt;h5&gt;...and smaller&lt;/h5&gt;<br/></td>
+							<td><h5>...and smaller</h5></td>
+						</tr>
+						<tr>
+							<td>&lt;h6&gt;... and finally, this is the smallest header. There is a line break tag in the middle of the h6 header tags, it is an example of a void tag. &lt;br/&gt; <br/>
+The h6 text is smaller than paragraph text!!!&lt;/h6&gt;</td>
+							<td><h6>... and finally, this is the smallest header. Note: There is a line break tag in the middle of the h6 header tags, it is an example of a void tag.<br/>
 The h6 text is smaller than paragraph text!!!
-</h6></td></tr>
-				<tr><td>&lt;p&gt;Here is some paragraph text.&lt;/p&gt;</td><td><p>Here is some paragraph text.</p></td></tr>
-				<tr><td>&lt;strong&gt;BOLD TEXT&lt;/strong&gt;</td><td><strong>BOLD TEXT</strong></td></tr>
-				<tr><td>&lt;em&gt;Italic Text&lt;/em&gt;</td><td><em>Italic Text</em></td></tr>
-				<tr><td>&lt;u&gt;Undelined Text&lt;/u&gt;</td><td><u>Underlined Text</u></td></tr>
-				<tr><td>&lt;strike&gt;Strike Through&lt;/strike&gt;</td><td><strike>Strike Through</strike></td></tr>
-		</table>
+</h6></td>
+						</tr>
+						<tr>
+							<td>&lt;p&gt;Here is some paragraph text.&lt;/p&gt;</td>
+							<td><p>Here is some paragraph text.</p></td>
+						</tr>
+						<tr>
+							<td>&lt;strong&gt;BOLD TEXT&lt;/strong&gt;</td>
+							<td><strong>BOLD TEXT</strong></td>
+						</tr>
+						<tr>
+							<td>&lt;em&gt;Italic Text&lt;/em&gt;</td>
+							<td><em>Italic Text</em></td>
+						</tr>
+						<tr>
+							<td>&lt;u&gt;Underlined Text&lt;/u&gt;</td>
+							<td><u>Underlined Text</u></td></tr>	
+					</table>
+				</div>
+
+	<a href = "Top">Back to Top</a>
+		<div class="organization">
+			<a name="webpageStructure"></a>
+			<h2>Web Page Organization</h2>
+			<p>HTML automatically divides content into blocks. Each block is automatically given a certain amount of space around it. Some elements, such as paragraphs exist in their own block of space. Others exist within that block. For example a block of paragraph text has space above and below it to separate it from other elements, while bold or italic text within the paragraph do not break from other text. Elements that are automatically allotted their own block of space are called <em>block elements</em>, while those that are not are called <em>inline elements</em>.Some examples of inline tags are the anchor tag &lt;a&gt;, the italics tag &lt;em&gt;, and the paragraph tag &lt;p&gt;. Some examples of block tags are the division tag &lt;div&gt;, the paragraph tag &lt;p&gt;, and the form tag &lt;form&gt;.</p>
+			<p>The html programmer can use division tags to group content, including multiple block elements. For example, the navigation menu to the right was created as a separate block of content using division tags. A division or block of elements can be referred to as a <em>parent element</em>, and a sub-division or element within a division is called the <em>child element</em> of that division or element. A tree diagram or flow chart is sometimes made to illustrate the dependence of various organizational elements, known as a <strong>DOM</strong> (<u>D</u>ocument <u>O</u>bject <u>M</u>odel) for the webpage. The styling and positioning of elements on a web page can be refined by using CSS.</p>
+			</div>
+		<a href = "Top">Back to Top</a>
+		<div class="css">
+			<a name="cssDescripton"></a>
+			<h2>What is CSS?</h2>
+			<p>
+				CSS stands for <u>C</u>ascading <u>S</u>tyle <u>S</u>heets. CSS is used to refine the position and styling of elements on a page. The divisions or classes defined in html can be used by CSS to apply styling. Styling defined for parent elements is automatically inherited by child elements. Thus styling instructions are said to <em>cascade</em> like a waterfall from parent elements to their child elements.
+			</p>
+			<p> 
+				CSS instructions can be embedded within the header of the HTML document, inline with the elements themselves, or written in a separate document. Normally, styling instructions are written in a separate document that is loaded with the HTML code by the browser by a link provided in the header of an HTML document. This allows for the most efficient use of CSS. By writing the styling separately using content divisions, html code is less cluttered and the necessity of styling each individual element is avoided, embedded styling features must be repeated for every element needing that style. In contrast, when a separate CSS file is created styling can easily be applied to classes or divisions of elements . Styling features of parent elements are automatically inherited by child elements. Thus, repetition is avoided.
+			</p>
+			<p>
+				The header of an HTML document contains instructions that are not displayed on the page, but tell the browser the title to display in the browser tab and other instructions that must be loaded in order to render the page correctly.
+			</p> 
+			<a href = "Top">Back to Top</a>
+		</div>
+		<div class="Python">
+			<p>
+				HTML and CSS only contain the static content of a web page. They cannot make webpages interactive. For this you need a programming language such as Python, Java, or Ruby. These programming languages can be used to execute a set of instructions based on user input.
+			</p> 
+			<a name="Python"></a>
+			<h2>What are Programming Languages?</h2>
+			<p>
+				A programming language is like an interpreter that communicates between you and computer. Computer languages contain English commands that you can understand coupled with a grammar that facilitates communication with the computer. The written commands are <strong>compiled</strong> or in other words translated into computer language by a <strong>compiler.</strong>	
+			</p>
+			<p>
+				Computers work best with a sort of arithmetic with some subtle differences from what you may have learned in algebra class. Consider in Python the command a = 5. In Python this is not a declarative statement, it is imperative. That is to say, in algebra class the statement declares that the value of "a" and 5 are identical, i.e. a is 5. Such a declaration is either true or false. However, in Python a = 5 means no matter what the value of "a" might have been previously, from now on when I say "a" I mean five. It is a command. In older computer languages, this was made explicit by the preceeding the equality with the word "let". So, to assign the value of 5 to the letter a, one would write, "<strong>let</strong> a = 5." In Python, if one wanted to compare two numbers insteading of assigning a value, then a double equal sign makes the declarative comparison, e.g. a==5. Writing a==5 in Python yields either a value of true or false.
+			</p>
+			<p>
+				Python and other languages can also work with strings of characters withot interpreting them as a mathematical expression. Such strings of characters, intended to be interpreted simply as text, are simply reffered to as <strong>strings</strong> However, some of the same grammar is applied to these as well. For e.g. arithmetically I can assign a = 5 and b = 2 so that the computer outputs 7 for the expression a+b. However, I can also write a = "Hello, " and b = "Tom.", so that the expression a+b would be interpreted as, "Hello, Tom." Adding strings together as in the previous example is called <strong>contenation</strong>.
+			</p> 
+			<p>
+				Since, computers cannot text written by humans in their own language, programmers must help bridge the gap for users. To do this the programmers have to be able to refer to particular parts of a string. In the early days of personal computers interactive text games were common. The user would read the description of an environment just as in the typical novel, but then have the freedom to type a command for the main character to perform. The programmer then would tell the computer to interpret the sentence the user wrote by looking for verb and object in the sentence. Depending on the verb and object combination would then result in the program outputting text that continues the story. In Python one could find the location of particular bits of string with the command find. For example, if the user_input ="attack the ogre", the position of the verb "attack" in a string could be found in Python with the command, user_input.find("attack"). The computer then begins at the beginning of the string counting the first character as zero and then moving on until the word, "attack" is found. In this case, the expression would be interpreted as the number zero since it is found at the very beginning of a string. The computer can also be told to start looking at some other place than the beginning and select specific parts of what the user inputted. 
+			</p>
+			<p>
+				To avoid repetition a programmer might want to define a procedure that can be repeated. When a programmer does this in Python it looks very much like the function notation that you used in your algebra class. For instance, to convert degrees celsius to fahrenheit, in algebra class we could write the formula f(c)= 1.8*c+32. In the algebraic expression the function is named f for degrees <strong>f</strong>ahrenheit the letter c on the left of the equation in parenthesis indentifies the input of the function. The letter c was chosen for degrees <strong>c</strong>elsius. In Python, we could accomplish the same thing by writing:<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def f(c):<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1.8*c+32<br/>
+Now, if one wanted the computer to convert degrees 40 degrees celsius to degrees fahrenheit, one would write: print f(40). Programmers my refer to such a function as a <em>method</em>
+			</p>
+			<a href = "Top">Back to Top</a>
+				<div class=python_basics>
+					<a name = "python_basics"></a>
+					<h2>Python</h2>
+					<p>
+					Every programming language has a few basic elements that make it function. In fact there are suprisingle few structures needed to make any program. The logical structures required are <em>sequence</em>, <em>grammar</em>, <em>conditions</em>, and <em>loops</em>. <em>Sequence</em> means that the computer reads the lines of code in order. <em>Grammar</em> is the way code is written so that it is interpreted by the computer correctly. Grammar includes things like when to capitalize, insert commas, what type of parenthesis to use, etc. Grammar varies between programming languages. <em>Conditional statements</em> contain a condition that triggers the execution of a block of code when ever the condition is true. In Python all conditional statments begin with the word if. A <em>loop</em> is a block of code that is repeated. In Python there are <em>while loops</em> that repeat a block of code as long as (while) a certain condition is met, and <em>for loops</em> that perform a block of code for every element in a given list.
+					</p>
+					<div class="conditionals">
+						<table>
+							<tr>
+								<th></th>
+								<th>Conditional Tests<th>
+							</tr>
+							<tr>
+								<td>==</td>
+								<td>equal to</td>								</tr>
+							<tr>
+								<td>!=</td>
+								<td>not equal</td>								</tr>
+							<tr>
+								<td>&lt;=</td>
+								<td>less than or equal to</td>
+							</tr>
+							<tr>
+								<td>&gt;=</td>
+								<td>greater than or equal to</td>
+							</tr>
+							<tr>
+								<td>&lt;</td>
+								<td>less than</td>								</tr>
+							<tr>
+								<td>&gt;</td>
+								<td>greater than</td>								</tr>
+						</table>
 					</div>
+					<div class = "conditions_vs_loops">
+						<table>
+							<tr>
+								<th>Conditional Statement Grammar</th>
+								<th>Loop Grammar</th>
+							</tr>
+							<tr>
+								<td><strong>if</strong> &lt;condition&gt;<strong>:</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;block&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>elif</strong> &lt;condition&gt;<strong>:</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;block&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>
+else</strong><strong>:</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;block&gt;
+								</td>
+								<td>
+									<strong>while</strong>&lt;condition&gt;<strong>:</strong><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;block&gt; <br/> <br/> <strong>for </strong> &lt;variable name&gt;<strong>in </strong>&lt;list&gt; <strong>:</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;block&gt;
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Each block is a list of commands that execute only when the associated condition, e.g. n&lt;5, is true.<br/> The <em> elif</em> is another condition or test that the programmer may insert that will only when the if condition was false.<br/>The else indicates a block of code to run when the previous condition was false.
+								</td>
+								<td>
+									The blocks continue to be executed as long as the associated conditional is true.<br/>The for loop repeats the block of code for every element in the list.<br/>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<p>
+				<em>Strings</em> can be thought of as a continuous list of characters. However, while there are similarities Python does not, strictly speaking, treat a string the same way that it does a variable in a list. The table below explains the difference and shows some of the operations that can be performed on each.
+			</p>
+		<div class="lists_vs_strings">
+			<a name="lists_vs_strings"></a>
+			<table>
+				<tr>
+					<th></th>
+					<th class="merged">Lists vs. Strings</th>
+				</tr>
+				<tr>
+					<td><strong>mutable:</strong> part or a single element of a list can be modified</td>
+					<td><strong>immuntable:</strong> New strings can be created by splicing or combining strings, but strings cannot be modified.</td>
+				</tr>
+				<tr>
+					<td><strong>structured data:</strong> By placing items in a list built-in structure is provided</td>
+					<td><strong>unstructured data:</strong> Individual characters can be counted, searched, and referred to but there is no set structure of substrings, etc.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="merged">Concatenation by using + symbol.</td>
+				</tr>
+				<tr>
+				<td><strong>Data types:</strong> numeric, text, or lists.</td>
+				<td><strong>Data types:</strong> text</td>
+				</tr>
+				<tr>
+					<th></th>
+					<th class="merged">Commands/Methods:</th>
+				</tr>
+				<tr>
+					<td>
+						<strong>concatenation:</strong>Concatenation combines two lists.<br/> &lt;list&gt;+&lt;list&gt;<br/>e.g. [1,2,3]+[4,5] &rightarrow; [1,2,3,4,5]<br/><br/> <strong>append:</strong>Append adds a single new element to the end of the list. Concatenation adds one or more elements.<br/>&lt;list&gt;.append(&lt;element&gt;)<br/>e.g. [1, 2, 3].append.([4, 5]) &rightarrow; [1, 2, 3, [4, 5]]<br/><br/><em>Note:</em> The difference between the concatenation and append examples. In the concatenation example the [4, 5] adds two elements to the existing list, while appending [4, 5] only adds one element to the list.<br/><br/><strong>length:</strong>The len command returns the number of elements of a list.<br/>len(&lt;list&gt;)<br/>e.g. len([0,1,2]) &rightarrow; 3<br/><br/>
+<strong>index: </strong> The index method returns the first position that a certain value occurs in a list.<br/> &lt;list&gt;.index(&lt;value&gt;)<br/>e.g. ['and', 'a', 'n', 'n', 1].index('n') &rightarrow; 2<br/><br/><strong>in/not in:</strong> These methods are test conditions that determine whether a given value occurs in a list and return true or false value. <br/> &lt;value&gt; in &lt;list&gt;<br/> e.g. ['n'] <strong>in</strong> ['and', 'a', 'n', 'n', 1] &rightarrow; True <br/> ['n'] <strong> not in</strong> ['and', 'a', 'n', 'n', 1] &rightarrow; False
+					</td>
+					<td>
+						<strong>concatenation:</strong> Concatenation combines two strings.<br/>&lt;string&gt;+&lt;string&gt;<br/>e.g. 'Hello, ' + 'Dave' &rightarrow; Hello, Dave <br/><br/> <strong>length:</strong> The len command returns the length of a string. <br/> len(&lt;string&gt;)<br/>e.g. len(ï¿½Helloï¿½) &rightarrow; 5 <br/><br/><strong>Find:</strong> The find method returns the position of a search string in a given string. The first character of the string being in the zero position. If no starting position is specified for the search, then the methods defaults at searching the string from position zero onwards.<br/>&lt;string&gt;.find(&lt;string&gt;,&lt;numeric expression&gt;)<br/>e.g. 'Hello, Dave'.find('ave') &rightarrow; 8<br/><br/> <strong>Splice:</strong> Strings can be spliced from any given starting position to an ending position. The default starting position is the beginning of the string, and the default end is the end of the string whenever none is specified. The start position is an included boundary, but the end is excluded when specifying a splice.<br/>&lt;string&gt;[&lt;numeric expression&gt;:&lt;numeric expression&gt;]<br/> e.g. 'Hello, Dave'[4:9] &rightarrow; o, Da<br/><br/> 
+					</td>
+				</tr>
+			</table>
+		</div>
+<a href = "Top">Back to Top</a>
 	</div>
-<div class="organization">
-	</br>
-	<h2>Web Page Organization</h2>
-	<a name="webpageStructure"></a>
-	<p>HTML automatically divides content into blocks. Each block is automatically given a certain amount of space around it. Some elements, such as paragraphs exist in their own block of space. Others exist within that block. For example a block of paragraph text has space above and below it to seperate it from other elements, while bold or italic text within the paragraph do not break from other text. Elements that are automatically alotted their own block of space are called <em>block elements</em>, while those that are not are called <em>inline elements</em>.Some examples of inline tags are the anchor tag &lt;a&gt;, the italics tag &lt;em&gt;, and the paragraph tag &lt;p&gt;. Some examples of block tags are the division tag &lt;div&gt;, the paragraph tag &lt;p&gt;, and the form tag &lt;form&gt;.</p>
-	<p>The html programmer can use division tags to group content, including multiple block elements. For example, the navigation menu to the right was created as a separate block of content using division tags. A division or block of elements can be referred to as a <em>parent element</em>, and a sub-division or element within a divsion is called the <em>child element</em> of that divsion or element. A tree diagram or flow chart is sometimes made to illustrate the dependence of various organizational elements, known as a <strong>DOM</strong> (<u>D</u>ocument <u>O</u>bject <u>M</u>odel) for the webpage. The styling and positioning of elements on a web page can be refined by using CSS.</p>
-</div>
-<div class="css";>
-	<h2>What is CSS?</h2>
-<a name="cssDescripton"></a>
-<p>CSS stands for <u>C</u>ascading <u>S</u>tyle <u>S</u>heets. CSS is used to refine the position and styling of elements on a page. The divisons or classes defined in html can be used by CSS to apply styling. Styling defined for parent elements is automatically inherited by child elements. Thus styling instructions are said to <em>cascade</em> like a waterfall from parent elements to their child elements.</p>
-<p> CSS instructions can be embeded within the header of the HTML document, inline with the elements themselves, or written in a seperate document. Normally, styling instructions are written in a seperate document that is loaded with the HTML code by the browser by a link provided in the header of an HTML document. The header contains instructions that are not displayed on the page, but tell the browser the title to display in the browser tab and other instructions that must be loaded in order to render the page correctly. 
-</div>
-</div>
-</div>
+	<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" /></a>
+	</p>
+	</div>
 </body>
 </html>
