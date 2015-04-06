@@ -3,19 +3,22 @@
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
 
 /*Styling for my navigation bar:in a narrow rectanglar box with rounded edges with fixed position so that it follows the content. */
-.body {background-color: Gainsboro;}
-<<<<<<< HEAD
-.navigation {position:fixed;border-style:solid;border-width:1px;border-color:navy; background-color:khaki; max-width:200px;border-radius:10px;}
-.mainheading {text-align:center;font-size:200%;border:solid;border-radius:15%;background-color:beige;Margin:10px;font-family:"Meddon",cursive;}
-.content {position: relative;width:80%;left:215px;}
-.htmlCodeEg {border-style:solid;}
-.tagExamples h2 {text-align:center; margin:1px}
-=======
-.navigation {position:fixed; top: 0px; box-boder:1px; border-color:navy; background-color:khaki; max-width:200px}
-.mainheading {text-align:center;font-size:200%;border:solid;border-radius:15%;background-color:beige;Margins:10px;font-family:"Meddon",cursive;}
-.content {position: relative;left:205px;}
-.htmlCodeEg {max-width:500px}
+
+.navigation {text-align:center; font-weight:bold; color: white;}
+.mainheading {text-align:center;font-size:200%;border:solid; border-radius:15%; background-color:cornflowerblue; margin:10px;font-family:"Meddon",cursive;width:70%;margin-left: 300px }
+.content {position:relative; max-width: 1300px;background-color: darkolivegreen;}
+.htmlCodeEg {background-color:cornflowerblue; max-width:1350px}
 .htmlOutput {max-width:500px}
 
-.htmlCodeEg {style:"display:flex";}
->>>>>>> origin/master
+
+
+.python_basics {flex-wrap: wrap; margin-bottom:10px; max-width: 1200px;}
+.python_basics conditions{display: flex;}
+
+.lists_vs_strings {background-color: cornflowerblue;border-style: solid; border-width: thin; max-width: 1350px;}
+
+.lists_vs_strings th{font-size: 150%; padding-top: 0px;}
+.lists_vs_strings td{width:50%}
+
+
+.merged {border-style: none; float:right;}
